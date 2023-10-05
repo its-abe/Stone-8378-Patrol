@@ -724,7 +724,8 @@ Transform:
   m_LocalPosition: {x: 5.13, y: 0.666, z: 7.14}
   m_LocalScale: {x: 0.75, y: 0.5, z: 0.75}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1938913701}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &396367931
@@ -1573,7 +1574,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 7e5e266629f7d8b42ac5dd3d5e74c9f1, type: 2}
+    - {fileID: 11400000, guid: 46211dad2c4548a4dba018bd0f17fd22, type: 2}
 --- !u!114 &1830495800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1745,7 +1746,7 @@ GameObject:
   - component: {fileID: 1938913697}
   - component: {fileID: 1938913696}
   m_Layer: 0
-  m_Name: Cone
+  m_Name: Vision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1766,11 +1767,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 55663371}
 --- !u!33 &1938913697
@@ -5290,13 +5291,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938913695}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 3.7111, y: 0.60676, z: 2.359}
-  m_LocalScale: {x: 4.5842023, y: 9.942937, z: 1.5267658}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 1.42, y: -0.12, z: 6.77}
+  m_LocalScale: {x: 6.11227, y: 13.257249, z: 3.053532}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_Father: {fileID: 264278143}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!1 &1980694726
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,4 +5342,3 @@ SceneRoots:
   - {fileID: 1830495804}
   - {fileID: 264278143}
   - {fileID: 1703612871}
-  - {fileID: 1938913701}
